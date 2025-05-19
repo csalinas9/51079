@@ -1,0 +1,1 @@
+archivoMetadata = nombre: documento.pdf; tipo: pdf; tamaño: texto;

@@ -1,0 +1,8 @@
+nombre: documento.word;
+tipo: word; 
+tamaño: 102400; 
+creado: 2024-06-02 10:00; 
+modificado: 2024-06-02 10:30; 
+autor: alumno; 
+descripcion: Otro documento para ingresar como input.; 
+etiquetas: [documento, input, gramática];

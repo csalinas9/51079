@@ -10,7 +10,7 @@ Este proyecto implementa un analizador sintáctico con ANTLR4 y JavaScript que p
 - ANTLR4
 - Visual Studio Code con extensión ANTLR4
 
-## Cómo ejecutar
+## Cómo ejecutar desde la terminal:
 
 1. Instalar dependencias: `npm install`
 2. Generar analizadores: `antlr4 -Dlanguage=JavaScript -o generated Metadata.g4`
@@ -22,4 +22,4 @@ Archivos: `input_correcto1.txt` , `input_correcto2.txt`
 
 ## Ejemplos inválidos
 
-Archivos: `input/invalido1.txt`, `input/invalido2.txt`
+Archivos: `input_incorrecto1.txt`, `input_incorrecto2.txt`

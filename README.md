@@ -16,9 +16,9 @@ Este proyecto implementa un analizador sintáctico con ANTLR4 y JavaScript que p
 2. Generar analizadores: `antlr4 -Dlanguage=JavaScript -o generated Metadata.g4`
 3. Ejecutar: `node index.js`
 
-## Ejemplo válido
+## Ejemplos válido
 
-Archivo: `input/valido.txt`
+Archivos: `input_correcto1.txt` , `input_correcto2.txt`
 
 ## Ejemplos inválidos
 

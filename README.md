@@ -22,7 +22,8 @@ El propósito de este trabajo práctico es aplicar los conocimientos adquiridos 
   👉 [https://www.oracle.com/java/technologies/downloads/#java11](https://www.oracle.com/java/technologies/downloads/#java11) (seleccionar según sistema operativo)
 - Tener instalada la **extensión ANTLR4 para VS Code**
 
-![image](https://github.com/user-attachments/assets/37fbdf15-0d7c-496b-bb39-0d96711db2c9)
+![image](https://github.com/user-attachments/assets/ea8669fa-dc4a-4729-8b00-d91206c77add)
+
 
 > **Importante**: Luego de instalar la extensión, reiniciar VS Code para que tome los cambios.
 
@@ -60,20 +61,23 @@ git clone https://github.com/csalinas9/51079.git
 ### 2. Abrir el proyecto
 
 ```bash
-cd proyecto Node JS
+cd 51079
 code .
 ```
 
-![image](https://github.com/user-attachments/assets/9734fb9d-7675-4da5-8cc4-02730309c838)
+![image](https://github.com/user-attachments/assets/298f731c-55a7-4fb6-a3be-6e7d14b3bbdb)
+
 
 Si todo está bien instalado, deberías ver el proyecto en VS Code.
+> La carpeta "proyecto Node JS" contiene el proyecto de código del analizador.
 
 ## Funcionamiento del Analizador
 
 1. Abrí el archivo `Programa.g4` para ver la gramática propuesta.
-2. Dentro del repositorio hay varios archivos de ejemplo con entradas válidas o inválidas.
+2. Dentro del proyecto 4 archivos de texto, con ejemplos de entradas válidas e inválidas.
 
-![image](https://github.com/user-attachments/assets/acaeafb4-1842-486c-a5fc-3435caaafbaa)
+![image](https://github.com/user-attachments/assets/de016ab5-1885-4d5b-964b-bd47a71c84f9)
+
 
 3. Para probarlos:
 
@@ -93,26 +97,31 @@ Si todo está bien instalado, deberías ver el proyecto en VS Code.
 
 - Analiza el archivo `input.txt`}
 
-![image](https://github.com/user-attachments/assets/eccfdce5-59a2-4e32-94c2-7e60e2d00c07)
+![image](https://github.com/user-attachments/assets/b1a172d8-5267-42db-b9bb-b847d3ff6867)
+
 
 - Muestra los **tokens encontrados**
 
-![image](https://github.com/user-attachments/assets/b5d7b131-71b6-4626-b904-1d232d46a72f)
+![image](https://github.com/user-attachments/assets/4018ea48-9b83-466b-b3b5-0274826cce74)
+
 
 - Informa **errores sintácticos** (si los hay)
 
-![image](https://github.com/user-attachments/assets/f8cdb81e-1be0-4305-a660-0b8b60c0b14e)
+![image](https://github.com/user-attachments/assets/83557ce0-669c-448d-b083-430ed1466477)
 
 
-// En este caso no hay errores, ya que el input ingresado es correcto
+
+> En este caso no hay errores, ya que el input ingresado es correcto
 - Imprime el **árbol de derivación**
 
-![image](https://github.com/user-attachments/assets/7a0d3bee-8876-4644-8c38-1775791ebf95)
+![image](https://github.com/user-attachments/assets/e905ee49-0225-49ef-8f59-24c97a4ee42f)
+
 
 - Traduce el código fuente a **JavaScript**
 
-![image](https://github.com/user-attachments/assets/863826e5-a284-46d0-8532-cb1cacc125e5)
+![image](https://github.com/user-attachments/assets/a888443e-ea18-4628-b7c3-bc33bc7e9c9e)
+
 
 - Ejecuta automáticamente el código traducido
 
-![image](https://github.com/user-attachments/assets/9951c24c-2f8f-4419-8e6f-4233cb713e66)
+![image](https://github.com/user-attachments/assets/85345583-0bca-4e0c-bcfe-4afcda3d25d3)

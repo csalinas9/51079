@@ -1,0 +1,4 @@
+programa Error {
+a = 10
+imprimir(a);
+}

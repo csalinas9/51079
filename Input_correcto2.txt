@@ -1,0 +1,4 @@
+programa Bienvenida {
+nombre = "Lucía";
+imprimir("Hola, " + nombre + "!");
+}

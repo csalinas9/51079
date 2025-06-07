@@ -1,0 +1,4 @@
+programa Test {
+2var = 7;
+imprimir(2var);
+}

@@ -1,0 +1,5 @@
+programa Suma {
+a = 5;
+b = 3.2;
+imprimir(a + b);
+}

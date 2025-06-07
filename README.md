@@ -62,10 +62,12 @@ git clone https://github.com/csalinas9/51079.git
 
 ```bash
 cd 51079
+cd proyecto Node JS
 code .
 ```
 
-![image](https://github.com/user-attachments/assets/298f731c-55a7-4fb6-a3be-6e7d14b3bbdb)
+![image](https://github.com/user-attachments/assets/e6032378-20ce-46ff-bbe7-c2b90b0b4cdc)
+
 
 
 Si todo está bien instalado, deberías ver el proyecto en VS Code.
@@ -74,9 +76,10 @@ Si todo está bien instalado, deberías ver el proyecto en VS Code.
 ## Funcionamiento del Analizador
 
 1. Abrí el archivo `Programa.g4` para ver la gramática propuesta.
-2. Dentro del proyecto 4 archivos de texto, con ejemplos de entradas válidas e inválidas.
+2. Dentro del repositorio hay 4 archivos de texto, con ejemplos de entradas válidas e inválidas.
 
-![image](https://github.com/user-attachments/assets/de016ab5-1885-4d5b-964b-bd47a71c84f9)
+![image](https://github.com/user-attachments/assets/ee7bad35-3609-47b3-a472-ab04e83bcc62)
+
 
 
 3. Para probarlos:

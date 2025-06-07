@@ -1,0 +1,16 @@
+{
+  "name": "analizador-programa-51079",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Analizador sintáctico con ANTLR4 + JavaScript - Legajo 51079",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["antlr4", "sintaxis", "analizador", "javascript"],
+  "author": "Candela Salinas",
+  "license": "MIT",
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}

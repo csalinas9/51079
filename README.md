@@ -60,6 +60,7 @@ git clone https://github.com/csalinas9/51079.git
 
 ### 2. Abrir el proyecto
 
+Ejecutar:
 ```bash
 cd 51079
 cd proyecto Node JS
